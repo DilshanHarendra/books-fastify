@@ -1,3 +1,35 @@
+PUT http://localhost:8000/api/v1/books/3
+Content-Type: application/json
+
+{
+
+  "name": "book 3",
+  "author": "Perera",
+  "cover": "http://localhost:80/api/item"
+}
+
+
+
+###
+DELETE http://localhost:8000/api/v1/books/3
+Accept: application/json
+
+###
+GET http://localhost:8000/api/v1/books/4
+Accept: application/json
+
+###
+POST http://localhost:8000/api/v1/books
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "book 2",
+  "author": "Harendra",
+  "cover": "http://localhost:80/api/item"
+}
+
+###
 GET http://localhost:8000/api/v1/books
 Accept: application/json
 
