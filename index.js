@@ -2,6 +2,9 @@ const fastify = require('fastify')({
     logger:true
 })
 
+//configs
+require('./config/DatabseConnection')
+
 
 //routers
 fastify.register(require('./routers/booksRouter'),{prefix:'/api/v1/books'})
