@@ -10,7 +10,9 @@
   "author": "Dilshan",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "fastify": "^3.22.1",
+    "mongoose": "^6.0.12",
     "nodemon": "^2.0.14"
   }
 }
