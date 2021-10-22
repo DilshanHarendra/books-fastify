@@ -1,0 +1,16 @@
+{
+  "name": "fastify-books",
+  "version": "1.0.0",
+  "description": "This is a test fastify project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev nodemon index.js"
+  },
+  "author": "Dilshan",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.22.1",
+    "nodemon": "^2.0.14"
+  }
+}
